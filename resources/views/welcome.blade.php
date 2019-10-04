@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet"/>
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
@@ -236,19 +236,15 @@
                 <div class="d-flex"> 
                   <h2><a href="https://www.facebook.com/profile.php?id=100004309875051" class="fa fa-facebook-square p-1 text-light"></a></h2>
                   <h2><a href="https://www.linkedin.com/in/ahmed-sayed-3369b7118/" class="fa fa-linkedin-square p-1 text-light"></a></h2>
-                  <h2><a href="https://github.com/AhmedSayedMohammed" class="fa fa-github-square p-1 text-light"></a></h2>
+                  <h2><a href="https://github.com/AhmedSayedMohammed" class="fa fa-github-square p-1 text-light "></a></h2>
                   <h2><a href="https://www.instagram.com/ahmed_sayed_mohmd/" class="fa fa-instagram p-1 text-light"></a></h2>
                 </div>
             </div>
             </div>
-            <div class="align-self-center pl-4 pt-2">
-                    <a href="#" class="btn btn-success p-1"> <h4> Contact Me 
-                      <i class="fab fa-angellist"></i></h4>
-                    </a>
-           </div>
-
+            @include('pages.contactme')
         </div>
       </div>
+      
       <div class="row p-3">
      {{-- Sections --}}
     <div class="col-9">
@@ -256,7 +252,7 @@
             <div class="section" id="aboutme">
                 <h2 class="">About me <i class="fa fa-user" aria-hidden="true"></i></h2>
                 <p id="dots">
-                    I'm a software developer with a bachelor degree in computer science <br> Specialized in Web Development and Game Development
+                    I'm a software developer with a bachelor degree in computer science <br> Specialized in Web Development and Game Development with 1 year experience
                 
                 </p>
             </div>
